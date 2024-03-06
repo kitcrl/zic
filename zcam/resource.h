@@ -4,6 +4,7 @@
 //
 #define IDD_DIALOG1                     101
 #define IDD_DIALOG                      101
+#define IDC_WEBCAM_VIEW                 1024
 
 // Next default values for new objects
 // 
