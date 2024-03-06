@@ -136,6 +136,9 @@ BOOL CALLBACK dlgproc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam)
 
     case WM_CLOSE:
     case WM_DESTROY:
+      PostQuitMessage(0);
+      break;
+
     default:
       //return ontray_proc(hwnd, msg, wparam, lparam);
       break;
