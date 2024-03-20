@@ -2,7 +2,6 @@
 // Microsoft Visual C++ generated include file.
 // Used by zcam.rc
 //
-#define IDD_DIALOG1                     101
 #define IDD_DIALOG                      101
 #define IDC_WEBCAM_VIEW                 1024
 

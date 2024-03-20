@@ -15,6 +15,10 @@ void fxWM_INITDIALOG(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam)
   //char _top_title[256];
   //init_rand();
 
+  wnd.hitem[_IDC_WEBCAM_VIEW].hwnd = GetDlgItem(hwnd, _IDC_WEBCAM_VIEW);
+
+  //SetWindowLongPtr(wnd.hitem[_IDC_WEBCAM_VIEW].hwnd, GWL_WNDPROC, (LONG)proc);
+
 
   //wnd.hdlg = hwnd;
   //fxWM_INIT_TABCONTROL(hwnd, msg, wparam, lparam);

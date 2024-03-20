@@ -172,9 +172,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="a\a.c" />
+    <ClCompile Include="a\__wcommon.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a\a.h" />
+    <ClInclude Include="a\__wcommon.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

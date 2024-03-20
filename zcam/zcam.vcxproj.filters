@@ -21,6 +21,9 @@
     <ClCompile Include="a\a.c">
       <Filter>a</Filter>
     </ClCompile>
+    <ClCompile Include="a\__wcommon.c">
+      <Filter>a</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="a\a.h">
@@ -28,6 +31,9 @@
     </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a\__wcommon.h">
+      <Filter>a</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
